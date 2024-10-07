@@ -11,3 +11,84 @@ html{
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+                        url('img/hero.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    text-transform: uppercase;
+}
+img{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+.row{
+    max-width: 1140;
+    margin: 0 auto;
+}
+.hero-text-box{
+    width: 1140px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 120%;
+    font-weight: 300;
+    word-spacing: 4;
+}
+.navigation{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-right: 100px;
+}
+li{
+    margin-top: 50px;
+    margin-left: 40px;
+    border: transparent;
+
+}
+a{
+    text-decoration: none;
+}
+li:link, a:visited{
+    color: #fff;
+}
+li:hover{
+    border-bottom: 1px solid #cf6d17;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #fff;
+}
+.btn:hover, btn:active{
+    background-color: #cf6d17;
+}
+.btn-full{
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+.btn-ghost{
+    border: 1px solid;
+    color: #e67e22;
+    transition: color 0.2s;
+}
+.btn-full:hover, .btn-full:active{
+    border: 1px solid #cf6d17;
+}
+.btn-ghost:hover, .btn-ghost:active{
+    border: 1px solid #cf6d17;
+    color: #fff
+    ;
+}
