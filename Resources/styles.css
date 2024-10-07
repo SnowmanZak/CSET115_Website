@@ -41,6 +41,9 @@ img{
     font-weight: 300;
     word-spacing: 4;
 }
+h1{
+    font-weight: 300;
+}
 .navigation{
     display: flex;
     justify-content: flex-end;
@@ -91,4 +94,76 @@ li:hover{
     border: 1px solid #cf6d17;
     color: #fff
     ;
+}
+.features{
+    margin-top: 50px;
+}
+.row_features{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.row_features p{
+    width: 80%;
+    margin-left: 15%;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 180%;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+h2:after{
+    display: block;
+    height: 2px;
+    width: 100px;
+    background-color: #e67e22;
+    content: " ";
+    margin: auto;
+    margin-top: 30px;
+}
+
+ion-icon{
+    font-size: 75px;
+    color: #e67e22;
+    stroke-width: 20px;
+}
+.details{
+    display: flex;
+    margin-top: 50px;
+    align-content: flex-start;
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+}
+.content{
+    width: 250px;
+}
+.content h3{
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    margin: 0 auto;
+}
+.images{
+    overflow: hidden;
+    background-color: #000;
+}
+.images img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    opacity: 0.7;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+.images img:hover{
+    opacity: 1;
+    transform: scale(1.00);
 }
