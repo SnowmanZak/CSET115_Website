@@ -251,3 +251,58 @@ ion-icon{
     color: #e67e22;
     text-decoration: underline;
 }
+.customer_quotes{
+    margin-top: 70px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('img/back-customers.jpg');
+background-size: cover;
+height: 75vh;
+}
+.quotes_title h2{
+    color: #fff;
+    padding-top: 75px;
+}
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+    color: #fff;
+    text-align: center;
+}
+blockquote::before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    color: #fff;
+}
+cite{
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+    color: #fff;
+    display: block;
+    float: left;
+    margin: 0;
+}
+cite img{
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+cite p{
+    margin-left: 250px;
+    margin-top: 30px;
+}
+.quotes{
+    display: flex;
+}
+.customer{
+    width: 32.26%;
+    text-align: center;
+}
