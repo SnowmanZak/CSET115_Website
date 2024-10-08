@@ -170,7 +170,7 @@ ion-icon{
 .install{
     margin-top: 30px;
     background-color: #f4f4f4;;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 .row_install {
     max-width: 1140px;
@@ -227,4 +227,27 @@ ion-icon{
     height: 50px;
     width: auto;
     margin: 0;
+}
+.cities{
+    padding: 0.2%;
+}
+.city{
+    display: inline-block;
+    margin-left: 92.5px;
+}
+.city img{
+    width: 250px;
+    height: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+.city ion-icon{
+    font-size: 25px;
+    color: #e67e22;
+    stroke-width: 20px;
+}
+.city_feature a{
+    color: #e67e22;
+    text-decoration: underline;
 }
