@@ -167,3 +167,64 @@ ion-icon{
     opacity: 1;
     transform: scale(1.00);
 }
+.install{
+    margin-top: 30px;
+    background-color: #f4f4f4;;
+    margin-bottom: 30px;
+}
+.row_install {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: auto;
+}
+.row_install2 {
+    max-width: 1140px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+}
+.phone_section {
+    width: 50%;
+}
+.phone_section img {
+    width: 45%;
+    height: auto;
+    align-self: flex-end;
+    padding-right: 3%;
+    float: right;
+}
+.phone_section:first-child {
+    padding-right: 3%;
+}
+.phone_section:last-child {
+    margin-top: 50px;
+    padding-left: 3%;
+}
+.work_step div {
+    margin: 0;
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    height: 55px;  
+    width: 55px;    
+    text-align: center;
+    font-size: 150%; 
+    margin-right: 25px; 
+    float: left;
+    left: 0; 
+    padding: 5px;
+}
+.work_step {
+    margin-bottom: 50px; 
+}
+.work_step p {
+    margin: 0; 
+}
+.btn-app:link, .btn-app:visited{
+    border: 0;
+}
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin: 0;
+}
